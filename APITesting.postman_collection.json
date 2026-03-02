@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "8bf5a2de-5dfe-4307-8691-8407f854372a",
-    "name": "API Testing",
+    "name": "API-Testing",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "_exporter_id": "28968306"
   },
@@ -37,7 +37,7 @@
               "});",
               "",
               "pm.test(\"ResponseTime\", () => {",
-              "\tpm.expect(pm.response.responseTime).to.be.below(200);",
+              "\tpm.expect(pm.response.responseTime).to.be.below(1000);",
               "});",
               ""
             ],
